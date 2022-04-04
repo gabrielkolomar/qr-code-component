@@ -4,3 +4,46 @@
   --grayish-blue: #7b879d;
   --dark-blue: #1f3251;
 }
+
+* {
+  margin: 0;
+  outline: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--light-gray);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+}
+
+.container .qr_code img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.container .information h2 {
+  color: var(--dark-blue);
+  padding: 0 10px 0 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container .information p {
+  color: var(--grayish-blue);
+  margin-bottom: 15px;
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
